@@ -1,0 +1,43 @@
+Info 0    [20:47:54.564] Starting TS Server
+Info 1    [20:47:54.564] Version: 4.5.4
+Info 2    [20:47:54.564] Arguments: /usr/local/bin/node /home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/tsserver.js --logFile /home/christian/Projects/fullstack/fullstack2a/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/31c7eb42a976a233ab02c878dbe7b600/tscancellation*
+Info 3    [20:47:54.564] Platform: linux NodeVersion: 16 CaseSensitive: true
+Info 4    [20:47:54.564] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [20:47:54.573] Format host information updated
+Info 6    [20:47:54.574] Search path: /home/christian/Projects/fullstack/fullstack2a/src/components
+Info 7    [20:47:54.575] For info: /home/christian/Projects/fullstack/fullstack2a/src/components/Note.js :: No config files found.
+Info 8    [20:47:54.578] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 9    [20:47:55.931] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1352.904079ms
+Info 10   [20:47:55.931] Project '/dev/null/inferredProject1*' (Inferred)
+Info 11   [20:47:55.931] 	Files (153)
+
+Info 12   [20:47:55.931] -----------------------------------------------
+Info 13   [20:47:55.944] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 14   [20:47:56.622] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 677.6840330000268ms
+Info 15   [20:47:56.622] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 16   [20:47:56.622] 	Files (143)
+
+Info 17   [20:47:56.622] -----------------------------------------------
+Info 18   [21:06:30.877] Search path: /home/christian/Projects/fullstack/fullstack2a/src/services
+Info 19   [21:06:30.877] For info: /home/christian/Projects/fullstack/fullstack2a/src/services/notes.js :: No config files found.
+Info 20   [21:06:30.878] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 21   [21:06:30.963] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 85.02240400016308ms
+Info 22   [21:06:30.963] Project '/dev/null/inferredProject2*' (Inferred)
+Info 23   [21:06:30.963] 	Files (149)
+
+Info 24   [21:06:30.963] -----------------------------------------------
+Info 25   [21:06:30.970] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject2*
+Info 26   [21:06:31.020] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject2* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 50.74381900019944ms
+Info 27   [21:06:31.020] Project '/dev/null/autoImportProviderProject2*' (AutoImportProvider)
+Info 28   [21:06:31.021] 	Files (142)
+
+Info 29   [21:06:31.021] -----------------------------------------------
+Info 30   [21:06:31.021] `remove Project::
+Info 31   [21:06:31.021] Project '/dev/null/inferredProject1*' (Inferred)
+Info 32   [21:06:31.021] 	Files (153)
+
+Info 33   [21:06:31.021] -----------------------------------------------
+Info 34   [21:06:31.021] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 35   [21:06:31.021] 	Files (143)
+
+Info 36   [21:06:31.021] -----------------------------------------------

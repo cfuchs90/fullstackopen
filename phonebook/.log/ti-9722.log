@@ -1,0 +1,52 @@
+[18:19:30.258] Global cache location '/home/christian/.cache/typescript/4.5', safe file path '/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[18:19:30.259] Processing cache location '/home/christian/.cache/typescript/4.5'
+[18:19:30.259] Trying to find '/home/christian/.cache/typescript/4.5/package.json'...
+[18:19:30.259] Loaded content of '/home/christian/.cache/typescript/4.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.576"},"devDependencies":{"@types/object-assign":"^4.0.30","@types/react":"^17.0.38","@types/react-dom":"^17.0.11","@types/scheduler":"^0.16.2"}}
+[18:19:30.259] Loaded content of '/home/christian/.cache/typescript/4.5/package-lock.json'
+[18:19:30.266] Adding entry into typings cache: 'object-assign' => '/home/christian/.cache/typescript/4.5/node_modules/@types/object-assign/index.d.ts'
+[18:19:30.270] Adding entry into typings cache: 'react' => '/home/christian/.cache/typescript/4.5/node_modules/@types/react/index.d.ts'
+[18:19:30.271] Adding entry into typings cache: 'react-dom' => '/home/christian/.cache/typescript/4.5/node_modules/@types/react-dom/index.d.ts'
+[18:19:30.272] Adding entry into typings cache: 'scheduler' => '/home/christian/.cache/typescript/4.5/node_modules/@types/scheduler/index.d.ts'
+[18:19:30.272] Finished processing cache location '/home/christian/.cache/typescript/4.5'
+[18:19:30.272] Process id: 9729
+[18:19:30.272] NPM location: /usr/local/bin/npm (explicit '--npmLocation' not  provided)
+[18:19:30.273] validateDefaultNpmLocation: false
+[18:19:30.273] Npm config file: /home/christian/.cache/typescript/4.5/package.json
+[18:19:30.273] Updating types-registry npm package...
+[18:19:30.273] Exec: /usr/local/bin/npm install --ignore-scripts types-registry@latest
+[18:19:30.971]     Succeeded. stdout:
+    
+    up to date, audited 8 packages in 575ms
+
+found 0 vulnerabilities
+
+[18:19:30.971] Updated types-registry npm package
+[18:19:32.005] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/christian/Projects/fullstack/phonebook/src/components/numbers.js","/home/christian/Projects/fullstack/phonebook/src/services/numberService.js","/home/christian/Projects/fullstack/phonebook/src/App.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/christian/Projects/fullstack/phonebook/src","kind":"discover"}
+[18:19:32.014] Loaded safelist from types map file '/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[18:19:32.015] Explicitly included types: []
+[18:19:32.015] Inferred typings from unresolved imports: []
+[18:19:32.015] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/christian/Projects/fullstack/phonebook/src/components/bower_components","/home/christian/Projects/fullstack/phonebook/src/components/node_modules","/home/christian/Projects/fullstack/phonebook/src/services/bower_components","/home/christian/Projects/fullstack/phonebook/src/services/node_modules","/home/christian/Projects/fullstack/phonebook/src/bower_components","/home/christian/Projects/fullstack/phonebook/src/node_modules"]}
+[18:19:32.015] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/christian/Projects/fullstack/phonebook/src/components/bower_components","/home/christian/Projects/fullstack/phonebook/src/components/node_modules","/home/christian/Projects/fullstack/phonebook/src/services/bower_components","/home/christian/Projects/fullstack/phonebook/src/services/node_modules","/home/christian/Projects/fullstack/phonebook/src/bower_components","/home/christian/Projects/fullstack/phonebook/src/node_modules"]}
+[18:19:32.016] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/components
+[18:19:32.016] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:32.017] Elapsed:: 1.0515510002151132ms DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:32.017] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/services
+[18:19:32.017] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/services 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:32.017] Elapsed:: 0.0881139999255538ms DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/services 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:32.017] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/bower_components
+[18:19:32.017] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:32.018] Elapsed:: 0.7103820005431771ms DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:32.018] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/node_modules
+[18:19:32.018] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:32.018] Elapsed:: 0.06122499983757734ms DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:19:32.019] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[18:19:32.019] Response has been sent.
+[18:19:32.019] No new typings were requested as a result of typings discovery
+[18:35:35.172] sysLog:: onTimerToUpdateChildWatches:: 1
+[18:35:35.172] sysLog:: invokingWatchers:: Elapsed:: 0.1274120006710291ms:: 0
+[18:35:35.172] DirectoryWatcher:: Triggered with /home/christian/Projects/fullstack/phonebook/src/components/numbers.js 0:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:35:35.172] Elapsed:: 0.03785399999469519ms DirectoryWatcher:: Triggered with /home/christian/Projects/fullstack/phonebook/src/components/numbers.js 0:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:35:35.172] DirectoryWatcher:: Triggered with /home/christian/Projects/fullstack/phonebook/src/components/numbers.js 1:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:35:35.172] Elapsed:: 0.004315000027418137ms DirectoryWatcher:: Triggered with /home/christian/Projects/fullstack/phonebook/src/components/numbers.js 1:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[18:35:35.172] sysLog:: Elapsed:: 0.4587030000984669ms:: onTimerToUpdateChildWatches:: 0 undefined

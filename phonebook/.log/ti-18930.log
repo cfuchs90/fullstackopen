@@ -1,0 +1,37 @@
+[17:44:59.400] Global cache location '/home/christian/.cache/typescript/4.5', safe file path '/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json
+[17:44:59.400] Processing cache location '/home/christian/.cache/typescript/4.5'
+[17:44:59.400] Trying to find '/home/christian/.cache/typescript/4.5/package.json'...
+[17:44:59.401] Loaded content of '/home/christian/.cache/typescript/4.5/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.576"},"devDependencies":{"@types/object-assign":"^4.0.30","@types/react":"^17.0.38"}}
+[17:44:59.401] Loaded content of '/home/christian/.cache/typescript/4.5/package-lock.json'
+[17:44:59.407] Adding entry into typings cache: 'object-assign' => '/home/christian/.cache/typescript/4.5/node_modules/@types/object-assign/index.d.ts'
+[17:44:59.412] Adding entry into typings cache: 'react' => '/home/christian/.cache/typescript/4.5/node_modules/@types/react/index.d.ts'
+[17:44:59.412] Finished processing cache location '/home/christian/.cache/typescript/4.5'
+[17:44:59.412] Process id: 18938
+[17:44:59.412] NPM location: /usr/local/bin/npm (explicit '--npmLocation' not  provided)
+[17:44:59.412] validateDefaultNpmLocation: false
+[17:44:59.413] Npm config file: /home/christian/.cache/typescript/4.5/package.json
+[17:44:59.413] Updating types-registry npm package...
+[17:44:59.413] Exec: /usr/local/bin/npm install --ignore-scripts types-registry@latest
+[17:45:00.028]     Succeeded. stdout:
+    
+    up to date, audited 7 packages in 517ms
+
+found 0 vulnerabilities
+
+[17:45:00.028] Updated types-registry npm package
+[17:45:01.172] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/christian/Projects/fullstack/phonebook/src/App.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/christian/Projects/fullstack/phonebook/src","kind":"discover"}
+[17:45:01.183] Loaded safelist from types map file '/home/christian/.emacs.d/.cache/lsp/npm/typescript/lib/node_modules/typescript/lib/typesMap.json'
+[17:45:01.184] Explicitly included types: []
+[17:45:01.184] Inferred typings from unresolved imports: []
+[17:45:01.184] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/christian/Projects/fullstack/phonebook/src/bower_components","/home/christian/Projects/fullstack/phonebook/src/node_modules"]}
+[17:45:01.184] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/christian/Projects/fullstack/phonebook/src/bower_components","/home/christian/Projects/fullstack/phonebook/src/node_modules"]}
+[17:45:01.184] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/bower_components
+[17:45:01.185] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:45:01.186] Elapsed:: 0.8691710010170937ms DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:45:01.186] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/node_modules
+[17:45:01.186] DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:45:01.186] Elapsed:: 0.1529809981584549ms DirectoryWatcher:: Added:: WatchInfo: /home/christian/Projects/fullstack/phonebook/src/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:45:01.186] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[17:45:01.186] Response has been sent.
+[17:45:01.186] No new typings were requested as a result of typings discovery
